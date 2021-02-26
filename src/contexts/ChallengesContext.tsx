@@ -24,6 +24,7 @@ interface ChallengesContextData{
 interface ChallengesProviderProps{
   children:ReactNode;
 }
+console.log('só para commitar')
 
 export const ChallengesContext = createContext({} as ChallengesContextData)
 
